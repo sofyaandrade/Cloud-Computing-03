@@ -1,0 +1,19 @@
+services:
+  trabalho03-linux:
+    build: .
+    image: sofyaandrade/trabalho03-plataforma-treinos:1.0
+    container_name: trabalho03-linux
+    ports:
+      - "8080:80"
+    volumes:
+      - trabalho03_dados:/app
+      - ./scripts:/app/scripts
+      - ./source:/app/source
+      - ./backups:/app/backups
+      - ./logs:/app/logs
+      - ./evidencias:/app/evidencias
+    tty: true
+    stdin_open: true
+
+volumes:
+  trabalho03_dados:

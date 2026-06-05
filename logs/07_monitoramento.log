@@ -1,0 +1,9 @@
+[2026-06-03 16:10:37] Coleta de monitoramento da plataforma de treinos iniciada.
+[2026-06-03 16:10:37] Uso de CPU: 50%
+[2026-06-03 16:10:37] [OK] Uso de CPU dentro do esperado.
+[2026-06-03 16:10:37] Uso de memória RAM: 83%
+[2026-06-03 16:10:37] [ALERTA] Uso de memória acima de 80%.
+[2026-06-03 16:10:37] Uso de disco: 34%
+[2026-06-03 16:10:37] [OK] Uso de disco dentro do esperado.
+[2026-06-03 16:10:37] [OK] Apache em execução.
+[2026-06-03 16:10:37] Coleta de monitoramento finalizada.

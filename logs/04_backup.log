@@ -1,0 +1,9 @@
+[2026-06-03 16:06:11] Gerando backup de /app/plataforma-treinos em /app/backups/backup_plataforma_treinos_2026-06-03_16-06.tar.gz.
+[2026-06-03 16:06:11] [SUCESSO] Backup criado: /app/backups/backup_plataforma_treinos_2026-06-03_16-06.tar.gz
+-rw-r--r-- 1 root root 624 Jun  3 16:06 /app/backups/backup_plataforma_treinos_2026-06-03_16-06.tar.gz
+[2026-06-03 16:09:24] Gerando backup de /app/plataforma-treinos em /app/backups/backup_plataforma_treinos_2026-06-03_16-09.tar.gz.
+[2026-06-03 16:09:24] [SUCESSO] Backup criado: /app/backups/backup_plataforma_treinos_2026-06-03_16-09.tar.gz
+-rw-r--r-- 1 root root 624 Jun  3 16:09 /app/backups/backup_plataforma_treinos_2026-06-03_16-09.tar.gz
+[2026-06-03 16:22:56] Gerando backup de /app/plataforma-treinos em /app/backups/backup_plataforma_treinos_2026-06-03_16-22.tar.gz.
+[2026-06-03 16:22:56] [SUCESSO] Backup criado: /app/backups/backup_plataforma_treinos_2026-06-03_16-22.tar.gz
+-rw-r--r-- 1 root root 665 Jun  3 16:22 /app/backups/backup_plataforma_treinos_2026-06-03_16-22.tar.gz

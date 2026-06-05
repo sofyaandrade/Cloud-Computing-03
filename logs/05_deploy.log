@@ -1,0 +1,20 @@
+[2026-06-03 16:06:36] Limpando diretório de publicação do Apache: /var/www/html
+[2026-06-03 16:06:36] Copiando arquivos estáticos da plataforma de treinos para o Apache.
+[2026-06-03 16:06:36] Arquivos publicados:
+total 24
+drwxr-xr-x 1 root root 4096 Jun  3 16:06 .
+drwxr-xr-x 1 root root 4096 Jun  3 15:54 ..
+drwxr-xr-x 2 root root 4096 Jun  3 16:06 assets
+-rw-r--r-- 1 root root 1523 Jun  3 16:06 index.html
+-rw-r--r-- 1 root root 1576 Jun  3 16:06 sobre.html
+[2026-06-03 16:06:36] [SUCESSO] Deploy concluído. index.html encontrado em /var/www/html.
+[2026-06-03 16:09:19] Limpando diretório de publicação do Apache: /var/www/html
+[2026-06-03 16:09:19] Copiando arquivos estáticos da plataforma de treinos para o Apache.
+[2026-06-03 16:09:19] Arquivos publicados:
+total 24
+drwxr-xr-x 1 root root 4096 Jun  3 16:09 .
+drwxr-xr-x 1 root root 4096 Jun  3 15:54 ..
+drwxr-xr-x 2 root root 4096 Jun  3 16:09 assets
+-rw-r--r-- 1 root root 1523 Jun  3 16:09 index.html
+-rw-r--r-- 1 root root 1576 Jun  3 16:09 sobre.html
+[2026-06-03 16:09:19] [SUCESSO] Deploy concluído. index.html encontrado em /var/www/html.

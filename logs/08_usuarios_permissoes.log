@@ -1,0 +1,10 @@
+[2026-06-03 16:10:42] Grupo criado: treinos_ops
+[2026-06-03 16:10:42] Usuário de sistema criado: treino_user
+[2026-06-03 16:10:42] Permissões aplicadas sem uso de chmod 777.
+[2026-06-03 16:10:42] Diretórios principais:
+drwxr-xr-x 13 root        root        4096 Jun  3 16:05 /app/plataforma-treinos
+drwxr-x---  2 treino_user treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/analise_desempenho
+drwxrwx---  2 root        treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/backups
+drwxrwx---  2 root        treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/logs
+drwxr-x---  2 treino_user treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/programas_treino
+drwxr-x---  2 treino_user treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/videos_treino

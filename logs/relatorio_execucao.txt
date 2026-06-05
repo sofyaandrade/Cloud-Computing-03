@@ -1,0 +1,80 @@
+Trabalho 03 - Linux, Shell Script e Cloud Computing
+Tema: 30 - Plataforma de Treinos e Exercícios Online
+Data e hora: 2026-06-03 16:10:45
+
+===== Espaço em disco =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         468G  151G  294G  34% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/nvme0n1p2  468G  151G  294G  34% /app
+tmpfs           7.7G     0  7.7G   0% /proc/acpi
+tmpfs           7.7G     0  7.7G   0% /proc/asound
+tmpfs           7.7G     0  7.7G   0% /proc/scsi
+tmpfs           7.7G     0  7.7G   0% /sys/devices/virtual/powercap
+tmpfs           7.7G     0  7.7G   0% /sys/firmware
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu0/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu1/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu2/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu3/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu4/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu5/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu6/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu7/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu8/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu9/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu10/thermal_throttle
+tmpfs           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu11/thermal_throttle
+
+===== Uso dos diretórios do projeto =====
+8.0K	/app/README.md
+12K	/app/backups
+8.0K	/app/evidencias
+40K	/app/logs
+52K	/app/plataforma-treinos
+44K	/app/scripts
+20K	/app/source
+
+===== Status do Apache =====
+[OK] Apache em execução
+
+===== Últimos backups =====
+total 8.0K
+-rw-r--r-- 1 root root 624 Jun  3 16:06 backup_plataforma_treinos_2026-06-03_16-06.tar.gz
+-rw-r--r-- 1 root root 624 Jun  3 16:09 backup_plataforma_treinos_2026-06-03_16-09.tar.gz
+
+===== Últimos logs =====
+total 36K
+-rw-r--r-- 1 root root 6.2K Jun  3 16:05 01_update.log
+-rw-r--r-- 1 root root 2.6K Jun  3 16:05 02_apache.log
+-rw-r--r-- 1 root root  674 Jun  3 16:05 03_estrutura.log
+-rw-r--r-- 1 root root  688 Jun  3 16:09 04_backup.log
+-rw-r--r-- 1 root root 1.1K Jun  3 16:09 05_deploy.log
+-rw-r--r-- 1 root root  492 Jun  3 16:10 07_monitoramento.log
+-rw-r--r-- 1 root root  765 Jun  3 16:10 08_usuarios_permissoes.log
+-rw-r--r-- 1 root root 2.2K Jun  3 16:10 relatorio_execucao.txt
+
+===== Arquivos publicados no Apache =====
+total 24
+drwxr-xr-x 1 root root 4096 Jun  3 16:09 .
+drwxr-xr-x 1 root root 4096 Jun  3 15:54 ..
+drwxr-xr-x 2 root root 4096 Jun  3 16:09 assets
+-rw-r--r-- 1 root root 1523 Jun  3 16:09 index.html
+-rw-r--r-- 1 root root 1576 Jun  3 16:09 sobre.html
+
+===== Usuários e permissões principais =====
+treino_user:x:995:1001::/app/plataforma-treinos:/usr/sbin/nologin
+treinos_ops:x:1001:
+drwxr-xr-x 13 root        root        4096 Jun  3 16:05 /app/plataforma-treinos
+-rw-r--r--  1 root        root         110 Jun  3 16:05 /app/plataforma-treinos/README_AMBIENTE.txt
+drwxr-xr-x  2 root        root        4096 Jun  3 16:05 /app/plataforma-treinos/administradores
+drwxr-x---  2 treino_user treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/analise_desempenho
+drwxrwx---  2 root        treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/backups
+drwxr-xr-x  2 root        root        4096 Jun  3 16:05 /app/plataforma-treinos/dados
+drwxr-xr-x  2 root        root        4096 Jun  3 16:05 /app/plataforma-treinos/exercicios
+drwxrwx---  2 root        treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/logs
+drwxr-xr-x  2 root        root        4096 Jun  3 16:05 /app/plataforma-treinos/notificacoes_personalizadas
+drwxr-x---  2 treino_user treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/programas_treino
+drwxr-xr-x  2 root        root        4096 Jun  3 16:05 /app/plataforma-treinos/publicacao
+drwxr-xr-x  2 root        root        4096 Jun  3 16:05 /app/plataforma-treinos/usuarios
+drwxr-x---  2 treino_user treinos_ops 4096 Jun  3 16:05 /app/plataforma-treinos/videos_treino

@@ -1,0 +1,15 @@
+[2026-06-03 16:05:57] Removendo estrutura antiga com segurança: /app/plataforma-treinos
+[2026-06-03 16:05:57] Criando estrutura temática da plataforma de treinos.
+[2026-06-03 16:05:57] [SUCESSO] Estrutura criada em /app/plataforma-treinos.
+/app/plataforma-treinos
+/app/plataforma-treinos/publicacao
+/app/plataforma-treinos/notificacoes_personalizadas
+/app/plataforma-treinos/dados
+/app/plataforma-treinos/logs
+/app/plataforma-treinos/analise_desempenho
+/app/plataforma-treinos/backups
+/app/plataforma-treinos/programas_treino
+/app/plataforma-treinos/videos_treino
+/app/plataforma-treinos/exercicios
+/app/plataforma-treinos/usuarios
+/app/plataforma-treinos/administradores
