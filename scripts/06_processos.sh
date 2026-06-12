@@ -1,11 +1,15 @@
 #!/bin/bash
 
+LOG_FILE="logs/06_processos.log"
+
 listar_processos() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Operação executada: listar processos." >> "$LOG_FILE"
     echo "Processos ativos no ambiente Linux da plataforma de treinos:"
     ps aux --sort=-%mem | head -n 15
 }
 
 buscar_processo() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Operação executada: buscar processo." >> "$LOG_FILE"
     NOME_PROCESSO="$1"
     if [ -z "$NOME_PROCESSO" ]; then
         echo "[ERRO] Informe o nome do processo. Exemplo: ./06_processos.sh buscar apache"
@@ -16,6 +20,7 @@ buscar_processo() {
 }
 
 matar_processo() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Operação executada: matar processo." >> "$LOG_FILE"
     PID="$1"
     if [ -z "$PID" ]; then
         echo "[SEGURANÇA] Nenhum PID informado. Operação cancelada."
